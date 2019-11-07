@@ -36,7 +36,7 @@ first_result.each{ |x|
 puts "#{x}"
 }
 second_result.each{ |y|
-puts "#{y}""
+puts "#{y}"
 }
 end 
 
