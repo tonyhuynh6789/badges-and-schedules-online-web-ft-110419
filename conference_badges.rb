@@ -33,10 +33,10 @@ def printer(attendees)
 first_result = batch_badge_creator(attendees)
 second_result = assign_rooms(attendees)
 first_result.each{ |x|
-puts x
+puts "#{x}"
 }
 second_result.each{ |y|
-puts y
+puts "#{y}""
 }
 end 
 
